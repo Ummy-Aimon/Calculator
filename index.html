@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Real Time Calculator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="cal.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div class="calculator">
+            <form action="" name="form">
+                <input type="text" name="screen">
+                <hr>
+        <div class="button-area">
+            <div class="line">
+                <input type="button" value="&radic;"onclick="form.screen.value=Math.sqrt(form.screen.value)">
+                <input type="button" value="CE"onclick="form.screen.value=''">
+                <input type="button" value="c"onclick="form.screen.value=''">
+                <input type="button" value="&larr;"onclick="form.screen.value=form.screen.value.slice(0,-1)">
+                           <br>
+
+                <input type="button"value="7" onclick="form.screen.value+='7'">
+                <input type="button" value="8"onclick="form.screen.value+='8'">
+                <input type="button" value="9"onclick="form.screen.value+='9'">
+                <input type="button" value="+"onclick="form.screen.value+='+'"> 
+                           <br>
+
+                <input type="button" value="4"onclick="form.screen.value+='4'">
+                <input type="button" value="5"onclick="form.screen.value+='5'">
+                <input type="button" value="6"onclick="form.screen.value+='6'">
+                <input type="button" value="-"onclick="form.screen.value+='-'"> 
+                            <br>
+
+                <input type="button" value="1"onclick="form.screen.value+='1'">
+                <input type="button" value="2"onclick="form.screen.value+='2'">
+                <input type="button" value="3"onclick="form.screen.value+='3'">
+                <input type="button" value="*"onclick="form.screen.value+='*'"> 
+                            <br>
+
+                 <input type="button" value="0"onclick="form.screen.value+='0'">
+                <input type="button" value="."onclick="form.screen.value+='.'">
+                <input type="button" value="="onclick="form.screen.value=eval(form.screen.value)">
+                <input type="button" value="/"onclick="form.screen.value+='/'"> 
+                           <br>
+            </div>
+        </div>
+            </form>
+        </div>
+    
+    </body>
+</html>

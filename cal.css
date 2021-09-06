@@ -1,0 +1,25 @@
+.calculator{
+    height: 300px;
+    width: 250px;
+    background-color: beige;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding:30px 15px 15px 15px ;
+    border: 1px solid wheat;
+}
+input[type="text"]{
+    width: 100%;
+    font-size: 36px;
+    padding: 0px 0px;
+    text-align: right;
+}
+
+
+input[type="button"]{
+    width:58px;
+    height:45px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    
+    
+}
